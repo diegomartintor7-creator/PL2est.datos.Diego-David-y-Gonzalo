@@ -1,0 +1,60 @@
+{
+  "tipos": [
+    "persona",
+    "lugar",
+    ""
+  ],
+  "tripletas": [
+
+    { "s": "persona:Albert Einstein",      "p": "nace_en",         "o": "lugar:Ulm"         },
+    { "s": "persona:Albert Einstein",      "p": "gana_nobel",      "o": "1921"              },
+    { "s": "persona:Albert Einstein",      "p": "area",            "o": "Física"            },
+    { "s": "persona:Albert Einstein",      "p": "corresponde_con", "o": "persona:Niels Bohr"},
+
+    { "s": "persona:Niels Bohr",           "p": "nace_en",         "o": "lugar:Copenhague"  },
+    { "s": "persona:Niels Bohr",           "p": "gana_nobel",      "o": "1922"              },
+    { "s": "persona:Niels Bohr",           "p": "area",            "o": "Física"            },
+    { "s": "persona:Niels Bohr",           "p": "es_padre_de",     "o": "persona:Aage Bohr" },
+
+    { "s": "persona:Aage Bohr",            "p": "nace_en",         "o": "lugar:Copenhague"  },
+    { "s": "persona:Aage Bohr",            "p": "gana_nobel",      "o": "1975"              },
+    { "s": "persona:Aage Bohr",            "p": "area",            "o": "Física"            },
+
+    { "s": "persona:Marie Curie",          "p": "nace_en",         "o": "lugar:Varsovia"    },
+    { "s": "persona:Marie Curie",          "p": "gana_nobel",      "o": "1903"              },
+    { "s": "persona:Marie Curie",          "p": "area",            "o": "Física"            },
+
+    { "s": "persona:Max Planck",           "p": "nace_en",         "o": "lugar:Kiel"        },
+    { "s": "persona:Max Planck",           "p": "gana_nobel",      "o": "1918"              },
+    { "s": "persona:Max Planck",           "p": "area",            "o": "Física"            },
+
+    { "s": "persona:Werner Heisenberg",    "p": "nace_en",         "o": "lugar:Würzburg"    },
+    { "s": "persona:Werner Heisenberg",    "p": "gana_nobel",      "o": "1932"              },
+    { "s": "persona:Werner Heisenberg",    "p": "area",            "o": "Física"            },
+
+    { "s": "persona:Erwin Schrödinger",    "p": "nace_en",         "o": "lugar:Viena"       },
+    { "s": "persona:Erwin Schrödinger",    "p": "gana_nobel",      "o": "1933"              },
+    { "s": "persona:Erwin Schrödinger",    "p": "area",            "o": "Física"            },
+
+    { "s": "persona:Wilhelm Röntgen",      "p": "nace_en",         "o": "lugar:Remscheid"   },
+    { "s": "persona:Wilhelm Röntgen",      "p": "gana_nobel",      "o": "1901"              },
+    { "s": "persona:Wilhelm Röntgen",      "p": "area",            "o": "Física"            },
+
+    { "s": "persona:Richard Feynman",      "p": "nace_en",         "o": "lugar:Nueva York"  },
+    { "s": "persona:Richard Feynman",      "p": "gana_nobel",      "o": "1965"              },
+    { "s": "persona:Richard Feynman",      "p": "area",            "o": "Física"            },
+
+    { "s": "persona:Hans Dietrich Müller", "p": "nace_en",         "o": "lugar:Ulm"         },
+    { "s": "persona:Hans Dietrich Müller", "p": "gana_nobel",      "o": "1952"              },
+    { "s": "persona:Hans Dietrich Müller", "p": "area",            "o": "Física"            },
+
+    { "s": "lugar:Ulm",                    "p": "pais",            "o": "lugar:Alemania"    },
+    { "s": "lugar:Kiel",                   "p": "pais",            "o": "lugar:Alemania"    },
+    { "s": "lugar:Würzburg",               "p": "pais",            "o": "lugar:Alemania"    },
+    { "s": "lugar:Remscheid",              "p": "pais",            "o": "lugar:Alemania"    },
+    { "s": "lugar:Copenhague",             "p": "pais",            "o": "lugar:Dinamarca"   },
+    { "s": "lugar:Varsovia",               "p": "pais",            "o": "lugar:Polonia"     },
+    { "s": "lugar:Viena",                  "p": "pais",            "o": "lugar:Austria"     },
+    { "s": "lugar:Nueva York",             "p": "pais",            "o": "lugar:EEUU"        }
+  ]
+}

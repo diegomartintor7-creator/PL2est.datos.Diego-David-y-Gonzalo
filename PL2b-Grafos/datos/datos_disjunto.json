@@ -1,0 +1,15 @@
+{
+  "tipos": [
+    "persona",
+    "lugar",
+    "animal",
+    ""
+  ],
+  "tripletas": [
+    { "s": "persona:Carlos",  "p": "conoce_a",     "o": "persona:David"   },
+    { "s": "persona:David",   "p": "vive_en",      "o": "lugar:Barcelona" },
+
+    { "s": "persona:Eva",     "p": "conoce_a",     "o": "persona:Fran"    },
+    { "s": "persona:Fran",    "p": "tiene_mascota", "o": "animal:Perro"   }
+  ]
+}

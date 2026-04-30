@@ -1,0 +1,18 @@
+{
+  "tipos": [
+    "persona",
+    "lugar",
+    "organizacion",
+    ""
+  ],
+  "tripletas": [
+    { "s": "persona:Maria",          "p": "conoce_a",      "o": "persona:Ana"      },
+    { "s": "persona:Ana",            "p": "conoce_a",      "o": "persona:Luis"     },
+    { "s": "persona:Luis",           "p": "vive_en",       "o": "lugar:Madrid"     },
+    { "s": "lugar:Madrid",           "p": "pertenece_a",   "o": "lugar:España"     },
+    { "s": "persona:Carlos",         "p": "trabaja_en",    "o": "organizacion:UAH" },
+    { "s": "organizacion:UAH",       "p": "ubicada_en",    "o": "lugar:Alcalá"     },
+    { "s": "lugar:Alcalá",           "p": "pertenece_a",   "o": "lugar:España"     },
+    { "s": "persona:Maria",          "p": "estudia_en",    "o": "organizacion:UAH" }
+  ]
+}
